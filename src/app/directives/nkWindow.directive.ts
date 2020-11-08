@@ -4,7 +4,7 @@ import {Directive, ElementRef, Renderer2} from "@angular/core";
 @Directive({selector: '[nkWindow]', exportAs: 'portal'})
 export class NkWindowDirective {
   private readonly _element: ElementRef;
-  private readonly _parent: HTMLElement;
+  private readonly _parent: any;
   private _renderer: Renderer2;
   private _window: Window;
 

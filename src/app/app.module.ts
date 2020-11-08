@@ -12,6 +12,12 @@ import {NkIfDirective} from "./directives/NkIf.directive";
 import {NkRenderComponentDirective} from "./directives/nkRenderComponent.directive";
 import {NkForMapDirective} from "./directives/nkForMap.directive";
 import {NkWindowDirective} from "./directives/nkWindow.directive";
+import { PasteDirective } from './directives/paste.directive';
+import { ButtonElementDirective } from './directives/button-element.directive';
+import {FirstDirective, SecondDirective, ThirdDirective} from "./directives/order";
+import { ToggleContentDirective } from './toggle/toggle-content.directive';
+import { ToggleTriggerDirective } from './toggle/toggle-trigger.directive';
+import { ToggleDirective } from './toggle/toggle.directive';
 
 
 @NgModule({
@@ -26,7 +32,11 @@ import {NkWindowDirective} from "./directives/nkWindow.directive";
       NkIfDirective,
       NkRenderComponentDirective,
       NkForMapDirective,
-      NkWindowDirective
+      NkWindowDirective,
+      PasteDirective,
+      ButtonElementDirective,
+      FirstDirective, SecondDirective, ThirdDirective, ToggleContentDirective, ToggleTriggerDirective, ToggleDirective
+
   ],
   imports: [
     BrowserModule,
